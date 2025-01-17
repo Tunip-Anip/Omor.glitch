@@ -7,9 +7,22 @@ body {
 h1 {
   color: white;
   text-align: center;
+  font-family: OmorH;
+  font-size: 200px;
+  
 }
 
 p {
-  font-family: serif;
+  font-family: OmorP;
   font-size: 200px;
+  
+  
+}
+@font-face {
+  font-family: OmorP;
+  src: url("https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/OMORI_GAME2.ttf?v=1737157661080");
+}
+@font-face {
+  font-family: OmorH;
+  src: url("https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/OMORI_GAME.ttf?v=1737157760270");
 }
