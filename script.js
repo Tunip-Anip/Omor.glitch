@@ -8,24 +8,9 @@ Make the "Click me!" button move when the visitor clicks it:
 - First add the button to the page by following the steps in the TODO 🚧
 
 */
-document.getElementById("demo").addEventListener("click", e);
-function e() {
-  document.getElementById("demo").innerHTML = "e";}
-
-
-
-  
-  
-  
-  
-  
-  
-const btn = document.querySelector("button"); // Get the button from the page
-if (btn) { // Detect clicks on the button
-  btn.onclick = function () {
-    // The 'dipped' class in style.css changes the appearance on click
-    btn.classList.toggle("dipped");
-  };
+document.getElementById("b").addEventListener("click", func());
+function func() {
+  document.getElementById("b").innerHTML = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLROaXdK8VQyXzODQ6hgnxZii4tdYShtS9uA&s";}
 }
 
 
