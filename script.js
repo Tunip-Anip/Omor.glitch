@@ -27,8 +27,7 @@ if (btn) {
       links[rand];
     console.log("button clicked!");
     console.log(links[3])
-function pausegif(){
-    btnn.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxuutX8HduKl2eiBeqSWo1VdXcOS9UxzsKhQ&s"}
+
   };
 }
 const btnn = document.getElementById("somt"); // Get the button from the page
@@ -39,7 +38,9 @@ if (btnn) {
     // btn.classList.toggle("dipped");
     btnn.src =
       "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-webp-to-gif-converter.gif?v=1737085165377";
-    
+    function pausegif(){
+      btnn.src = "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-animated-gif-maker.gif?v=1737086054827"}
+    const mytimeout = setTimeout(pausegif, 700);
 
   };
 }
