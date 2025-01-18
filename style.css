@@ -42,6 +42,11 @@ button {
   right: 953.5px;
   top: 380px;
 }
-#plot1{
+div5{
   text-align: "centre";
+  font-family: OmorP;
+  font-size: 75px;
+  margin:auto;
+  color: white;
+  position : absolute
 }
