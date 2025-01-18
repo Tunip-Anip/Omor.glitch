@@ -32,6 +32,6 @@ button {
   border: none;
   cursor: pointer;
 }
-id("somt"){
-  background: tomato;
+#somt{
+  ;
 }
