@@ -45,16 +45,3 @@ var audio = document.getElementById("battle");
       audio.play(); 
 var audio = document.getElementById("White");
       audio.play();
-function Shadow(x) {
-  for (let step = 0; step < 5; step++) {
-  ;
-}
-
-  }
-function unShadow(x) {
-   for (let step = 0; step < 5; step++) {
-  // Runs 5 times, with values of step 0 through 4.
-  console.log("Walking east one step");
-}
-
-}
