@@ -12,14 +12,9 @@ h1 {
 }
 
 p {
-   text-align: "centre";
   font-family: OmorP;
   font-size: 75px;
-  margin:auto;
   color: white;
-  position : absolute;
-  text-align: center;
-  padding-bottom:70px
 }
 @font-face {
   font-family: OmorP;
@@ -55,5 +50,6 @@ div5{
   color: white;
   position : absolute;
   text-align: center;
-  padding-bottom:70px
+  padding-bottom:70px;
+  margin:1rem
 }

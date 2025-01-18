@@ -18,7 +18,7 @@ if (btnn) {
       document.location.href = "Plot.html";
     }
     const mytimeout = setTimeout(pausegif, 700);
-    const mytimeout2 = setTimeout(next, 700);
+    const mytimeout2 = setTimeout(next, 800);
     document.getElementById("White").loop = true; 
     
   };
