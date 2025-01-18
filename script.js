@@ -14,9 +14,7 @@ if (btnn) {
     function pausegif() {
       btnn.src =
         "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-animated-gif-maker.gif?v=1737086054827";
-      var audio = document.getElementById("White");
-      audio.play();
-      document.location.href = "Plot.html";
+        document.location.href = "Plot.html";
     }
     const mytimeout = setTimeout(pausegif, 700);
     document.getElementById("White").loop = true; 
@@ -41,4 +39,7 @@ filer.forEach((f) => {
   };
 });
 
-  
+ var audio = document.getElementById("battle");
+      audio.play(); 
+var audio = document.getElementById("White");
+      audio.play();
