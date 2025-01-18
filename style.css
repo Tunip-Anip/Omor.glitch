@@ -29,6 +29,14 @@ button {
   border: none;
   cursor: pointer;
 }
-#Omori { text-align:"centre"
-  padding
+#Omori {
+  text-align: "centre";
+  position: absolute;
+  right: 800px;
+  top: 200px;
+}
+#somt {
+  position: absolute;
+  right: 950px;
+  top: 380px;
 }
