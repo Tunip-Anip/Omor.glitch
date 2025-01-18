@@ -19,6 +19,7 @@ if (btnn) {
       document.location.href = "Plot.html";
     }
     const mytimeout = setTimeout(pausegif, 700);
+    document.getElementById("White").loop = true; 
     
   };
 }
@@ -40,3 +41,4 @@ filer.forEach((f) => {
   };
 });
 
+  
