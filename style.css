@@ -26,3 +26,12 @@ p {
   font-family: OmorH;
   src: url("https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/OMORI_GAME.ttf?v=1737157760270");
 }
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+id("somt"){
+  background: tomato;
+}
