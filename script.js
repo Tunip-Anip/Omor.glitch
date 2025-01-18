@@ -2,7 +2,6 @@
 // Use your menus or right-click / control-click and choose "Inspect" > "Console"
 
 
-const btn = document.getElementById("img-wow"); // Get the button from the page
 
 const btnn = document.getElementById("somt"); // Get the button from the page
 if (btnn) {
@@ -15,11 +14,12 @@ if (btnn) {
     function pausegif() {
       btnn.src =
         "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-animated-gif-maker.gif?v=1737086054827";
-      display: "none";
       var audio = document.getElementById("White");
       audio.play();
+      document.location.href = "Plot.html";
     }
     const mytimeout = setTimeout(pausegif, 700);
+    
   };
 }
 
@@ -39,3 +39,4 @@ filer.forEach((f) => {
     goto(f.dataset.file, f.dataset.line);
   };
 });
+
