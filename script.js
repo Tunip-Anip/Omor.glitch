@@ -1,6 +1,6 @@
 // Print a message in the browser's dev tools console each time the page loads
 // Use your menus or right-click / control-click and choose "Inspect" > "Console"
-
+var pages = ["Plot.html","","",]
 
 
 const btnn = document.getElementById("somt"); // Get the button from the page
@@ -13,10 +13,12 @@ if (btnn) {
       "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-webp-to-gif-converter.gif?v=1737085165377";
     function pausegif() {
       btnn.src =
-        "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-animated-gif-maker.gif?v=1737086054827";
-        document.location.href = "Plot.html";
+        "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-animated-gif-maker.gif?v=1737086054827"};
+    function next(){
+      document.location.href = "Plot.html";
     }
     const mytimeout = setTimeout(pausegif, 700);
+    const mytimeout2 = setTimeout(next, 700);
     document.getElementById("White").loop = true; 
     
   };
@@ -38,8 +40,7 @@ filer.forEach((f) => {
     goto(f.dataset.file, f.dataset.line);
   };
 });
-
- var audio = document.getElementById("battle");
+var audio = document.getElementById("battle");
       audio.play(); 
 var audio = document.getElementById("White");
       audio.play();
