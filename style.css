@@ -89,3 +89,10 @@ p {
 img{-webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */}
+#next{
+  height:70px;
+  float:right
+}
+#Plot{
+  padding:250px
+}

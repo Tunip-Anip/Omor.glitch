@@ -1,10 +1,14 @@
 // Print a message in the browser's dev tools console each time the page loads
 // Use your menus or right-click / control-click and choose "Inspect" > "Console"
-var pages = ["Plot.html","","",]
+var pages = ["Plot.html","Lorem.html","",]
+var pageNames = ["Plot","Lorem"]
+
+for()
+if ( document.URL.includes("Plot") ) {let x = 0}
 
 
 
-const btnn = document.getElementById("somt"); // Get the button from the page
+const btnn = document.getElementById("next"); // Get the button from the page
 if (btnn) {
   // Detect clicks on the button
   btnn.onclick = function () {
@@ -16,7 +20,7 @@ if (btnn) {
       btnn.src =
         "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-animated-gif-maker.gif?v=1737086054827"};
     function next(){
-      document.location.href = "Plot.html";
+      document.location.href = pages[x];
     }
     const mytimeout = setTimeout(pausegif, 700);
     const mytimeout2 = setTimeout(next, 800);
