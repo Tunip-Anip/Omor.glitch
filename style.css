@@ -46,14 +46,20 @@ button {
   top: 380px;
 }
 div5{
+  display: flex;
   font-family: OmorP;
   font-size: 75px;
   color: white;
   text-align: center;
-  margin:auto;display:inline-block;
+  margin:auto;
+  width: 100%;
+div
   
 }
 #floor {
-  float:right
-  height:850px
+  display:block;
+  float:right;
+  height:300p
+    x;
+  margin-left:auto
 }
