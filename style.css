@@ -15,7 +15,7 @@ p {
   font-family: OmorP;
   font-size: 75px;
   color: white;
-  max-width : 850px;
+ 
   text-shadow: 2px 2px 4px #000000;
 
 }
@@ -55,6 +55,7 @@ div5{
   }
 div6{
   display:flex;
+  margin-right:auto;
 }
   
 
@@ -63,8 +64,9 @@ div6{
   float:right;
   height:300px;
   margin-inline:auto;
-  border-radius: 25px;
+  border-radius: 60px;
   padding: 20px;
   width: 800px;
-  height: 600px; 
+  height: 600px;
+  padding:40px
 }
