@@ -1,7 +1,6 @@
 body {
-  background-image: url("https://i.pinimg.com/736x/38/e2/99/38e299643720ebe962c14039dc3210b8.jpg");
-  background-size: contain;
-  background-attachment: fixed;
+  background-image: url("https://storage.modworkshop.net/mods/images/85614_1663405886_1bd3804db92969bde78399ada8ca018b.webp");
+  background-size: fill;
 }
 
 h1 {
@@ -15,9 +14,8 @@ p {
   font-family: OmorP;
   font-size: 75px;
   color: white;
- 
-  text-shadow: 2px 2px 4px #000000;
 
+  text-shadow: 2px 2px 4px #000000;
 }
 @font-face {
   font-family: OmorP;
@@ -34,7 +32,6 @@ button {
   cursor: pointer;
 }
 #Omori {
-  
   text-align: center;
   position: absolute;
   right: 800px;
@@ -45,28 +42,27 @@ button {
   right: 953.5px;
   top: 380px;
 }
-div5{
+div5 {
   display: block;
   font-family: OmorP;
   font-size: 75px;
   color: white;
   text-align: center;
   margin: auto;
-  }
-div6{
-  display:flex;
-  margin-right:auto;
 }
-  
+div6 {
+  display: flex;
+  margin-right: auto;
+}
 
 #floor {
-  display:flex;
-  float:right;
-  height:300px;
-  margin-inline:auto;
+  display: flex;
+  float: right;
+  height: 300px;
+  margin-inline: auto;
   border-radius: 60px;
   padding: 20px;
   width: 800px;
   height: 600px;
-  padding:40px
+  padding: 40px;
 }
