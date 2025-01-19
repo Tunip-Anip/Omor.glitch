@@ -1,6 +1,7 @@
 body {
   background-image: url("https://storage.modworkshop.net/mods/images/85614_1663405886_1bd3804db92969bde78399ada8ca018b.webp");
   background-size: fill;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -14,8 +15,7 @@ p {
   font-family: OmorP;
   font-size: 75px;
   color: white;
-
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 3px 3px 9px #000000;
 }
 @font-face {
   font-family: OmorP;
