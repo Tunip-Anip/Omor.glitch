@@ -15,10 +15,9 @@ p {
   font-family: OmorP;
   font-size: 75px;
   color: white;
-  text-align: center;
-  margin:auto;
-  max-width: 500px;
-  height: 100px;
+  max-width : 850px;
+  text-shadow: 2px 2px 4px #000000;
+
 }
 @font-face {
   font-family: OmorP;
@@ -51,7 +50,10 @@ div5{
   font-size: 75px;
   color: white;
   text-align: center;
-  margin:auto;
-  max-width: 5px;
-  height: 1px;
+  margin:auto;display:inline-block;
+  
+}
+#floor {
+  float:right
+  height:850px
 }
