@@ -9,6 +9,7 @@ h1 {
   text-align: center;
   font-family: OmorH;
   font-size: 200px;
+  position:flex;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
@@ -42,13 +43,14 @@ button {
   
   text-align: center;
   position: absolute;
-  right: 800px;
-  top: 200px;
+  padding:250px;
+  margin:auto;
+  marginleft:90px
 }
 #somt {
   position: absolute;
-  right: 953.5px;
-  top: 380px;
+  padding:250px;
+  margin:auto
 }
 div5{
   display: block;
