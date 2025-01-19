@@ -4,12 +4,10 @@ var pages = ["Plot.html","Lorem.html","",]
 
 
 
-const btnn = document.getElementById("somt"); // Get the button from the page
+const btnn = document.getElementById("omori-btn"); // Get the button from the page
 if (btnn) {
   // Detect clicks on the button
   btnn.onclick = function () {
-    // The 'dipped' class in style.css changes the appearance on click
-    // btn.classList.toggle("dipped");
     btnn.src =
       "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-webp-to-gif-converter.gif?v=1737085165377";
     function pausegif() {
@@ -43,27 +41,8 @@ filer.forEach((f) => {
 });
 var audio = document.getElementById("battle");
       audio.play(); 
-
-
-const btn = document.getElementById("nexthand"); // Get the button from the page
-if (btn) {
-  // Detect clicks on the button
-  btn.onclick = function () {
-    // The 'dipped' class in style.css changes the appearance on click
-    // btn.classList.toggle("dipped");
-    btn.src =
-      "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-webp-to-gif-converter.gif?v=1737085165377";
-    function pausegif() {
-      btn.src =
-        "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-animated-gif-maker.gif?v=1737086054827"};
-    function next(){
-      document.location.href = pages[0];
-    }
-    const mytimeout = setTimeout(pausegif, 700);
-    const mytimeout2 = setTimeout(next, 800);
-   
-    
-  };
-}
 var audio = document.getElementById("White");
       audio.play();
+
+const btn = document.getElementById("nexthand"); // Get the button from the page
+
