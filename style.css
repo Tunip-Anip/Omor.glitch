@@ -1,6 +1,6 @@
 body {
-  background-image: url("https://i.pinimg.com/736x/38/e2/99/38e299643720ebe962c14039dc3210b8.jpg");
-  background-size: contain;
+  background-image: url("https://storage.modworkshop.net/mods/images/85614_1663405886_1bd3804db92969bde78399ada8ca018b.webp");
+  background-size: fill;
   background-attachment: fixed;
 }
 
@@ -16,8 +16,7 @@ p {
   font-size: 75px;
   color: white;
  
-  text-shadow: 2px 2px 4px #000000;
-
+  text-shadow: 1px 1px 2px black, 0 0 1em indigo, 0 0 0.2em indigo;
 }
 @font-face {
   font-family: OmorP;
@@ -47,7 +46,6 @@ button {
 }
 div5{
   display: block;
-  font-family: OmorP;
   font-size: 75px;
   color: white;
   text-align: center;
@@ -69,4 +67,11 @@ div6{
   width: 800px;
   height: 600px;
   padding:40px
+}
+div7{
+  display: block;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  margin: auto;
 }
