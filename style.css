@@ -9,14 +9,20 @@ h1 {
   text-align: center;
   font-family: OmorH;
   font-size: 200px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 p {
   font-family: OmorP;
   font-size: 75px;
   color: white;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
  
-  text-shadow: 1px 1px 2px black, 0 0 1em indigo, 0 0 0.2em indigo;
+  text-shadow: 1px 1px 2px #3a078a, 0 0 1em #3a078a, 0 0 0.2em #3a078a,1px 1px 2px #3a078a, 0 0 1em #3a078a, 0 0 0.2em #3a078a,1px 1px 2px #3a078a, 0 0 1em #3a078a, 0 0 0.2em #3a078a;
 }
 @font-face {
   font-family: OmorP;
@@ -75,3 +81,11 @@ div7{
   text-align: center;
   margin: auto;
 }
+
+p {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */}
+img{-webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */}
