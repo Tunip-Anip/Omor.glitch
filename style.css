@@ -65,20 +65,21 @@ div6{
 #floor {
   display:flex;
   float:right;
-  height:300px;
+  height:150px;
   margin-inline:auto;
   border-radius: 60px;
   padding: 20px;
-  width: 800px;
-  height: 600px;
+  width: 400px;
+  height: 300px;
   padding:40px
 }
 div7{
-  display: block;
+  display: flex;
   font-size: 75px;
   color: white;
   text-align: center;
   margin: auto;
+  
 }
 
 img{-webkit-user-select: none; /* Safari */
@@ -90,6 +91,17 @@ img{-webkit-user-select: none; /* Safari */
 }
 #Plot{
   padding:250px
+}
+#Mewo1 {
+  display:flex;
+  float:right;
+  height:150px;
+  margin-inline:auto;
+  border-radius: 60px;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  padding:40px
 }
 
 #omori-btn {
