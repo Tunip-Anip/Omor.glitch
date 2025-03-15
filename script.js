@@ -23,6 +23,25 @@ if (btnn) {
   };
 }
 
+const btnnn = document.getElementById("nexthand"); // Get the button from the page
+if (btnnn) {
+  // Detect clicks on the button
+  btnnn.onclick = function () {
+    btnnn.src =
+      "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-webp-to-gif-converter.gif?v=1737085165377";
+    function pausegif() {
+      btnn.src =
+        "https://cdn.glitch.global/6eca133f-bf1e-45fc-b924-8892659d88c7/ezgif.com-animated-gif-maker.gif?v=1737086054827"};
+    function next(){
+      document.location.href = pages[1];
+    }
+    const mytimeout = setTimeout(pausegif, 700);
+    const mytimeout2 = setTimeout(next, 800);
+    document.getElementById("White").loop = true; 
+    
+  };
+}
+
 // ----- GLITCH STARTER PROJECT HELPER CODE -----
 
 // Open file when the link in the preview is clicked
