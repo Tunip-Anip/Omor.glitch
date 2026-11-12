@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://storage.modworkshop.net/mods/images/85614_1663405886_1bd3804db92969bde78399ada8ca018b.webp");
+  background-image: url("images/headspace.jpg");
   background-size: fill;
   background-attachment: fixed;
   overflow-y: scroll; /* Add the ability to scroll */
@@ -44,13 +44,16 @@ button {
   border: none;
   cursor: pointer;
 }
-#Omori {
-  
-/*   text-align: center;
-  position: block;
-  padding:250px;
+
+.omori-button{
+
   text-align: center;
-  margin: auto; */
+
+}
+#Omori {
+  margin-top:10%;
+  position: absolute ;
+  text-align: center;
 }
 
 
@@ -118,18 +121,12 @@ img{-webkit-user-select: none; /* Safari */
 
 }
 
-#omori-btn {
-  margin-top: 7rem;
-  margin-left: 0.7rem;
-  
-}
+
 
 .center-screen {
   top: 0;
-/*   margin-top: 1rem; */
-  position: fixed;
-  display: flex;
   align-items: center;
+  text-align: center ;
   justify-content: center;
   width: 100%;
   height: 100vh;
